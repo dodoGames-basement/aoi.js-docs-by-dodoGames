@@ -8,3 +8,6 @@ you can Contribute by making a pull request which either fixes something or add 
 you can view 2 different versions of the docs
 * **v5**: the main default guide for stuff regarding v5 of aoi.js!
 * **v6**: the upcoming new guide covering v6 features!, currently isn't finished since it isn't released
+
+# site
+you can view the site here: https://github.com/DodoGames7/aoi.js-docs-by-dodoGames
