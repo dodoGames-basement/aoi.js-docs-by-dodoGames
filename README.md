@@ -10,4 +10,4 @@ you can view 2 different versions of the docs
 * **v6**: the upcoming new guide covering v6 features!, currently isn't finished since it isn't released
 
 # site
-you can view the site here: https://github.com/DodoGames7/aoi.js-docs-by-dodoGames
+you can view the site here: https://dodogames.gitbook.io/aoi.js-docs-by-dodogames/
