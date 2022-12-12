@@ -33,6 +33,7 @@
   * [Button Pages](some-creative-examples/popular/button-pages.md)
   * [Custom Prefix](some-creative-examples/popular/custom-prefix.md)
   * [toggle button switches](some-creative-examples/popular/toggle-button-switches.md)
+  * [Hack command using $editIn](some-creative-examples/popular/hack-command-using-usdeditin.md)
 * [Economy](some-creative-examples/economy/README.md)
   * [Daily Command with reminder using $setTimeout](some-creative-examples/economy/daily-command-with-reminder-using-usdsettimeout.md)
 * [Other](some-creative-examples/other/README.md)
