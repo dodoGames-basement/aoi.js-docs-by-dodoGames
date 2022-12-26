@@ -6,7 +6,7 @@ toggle button switches let's the user basically click a button to enable a featu
 
 ## Getting Started
 
-for this example, we will start with multiple `$if` for a interaction cmd, as well as a variable
+for this example, we will start with `$if`  alongside with `$elseif` for a interaction cmd, as well as a variable
 
 {% code title="commands/switch.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -23,11 +23,10 @@ prototype: "button",
 code: `$if[$getServerVar[option]==false]
 $interactionReply[enabled the Option]
 $setServerVar[option;true]
-$else
-$if[$getServerVar[option]==true]
+$elseif[$getServerVar[option]==true]
 $interactionReply[disabled the Option]
 $setServerVar[option;false]
-$endif
+$endelseif
 $endif
 `
 }]
