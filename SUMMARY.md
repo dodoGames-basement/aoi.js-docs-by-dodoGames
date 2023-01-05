@@ -7,3 +7,8 @@
 * [Main](tips/main/README.md)
   * [parser support](tips/main/parser-support.md)
   * [disabling logs](tips/main/disabling-logs.md)
+
+## Examples
+
+* [Popular](examples/popular.md)
+* [Common](examples/common.md)
