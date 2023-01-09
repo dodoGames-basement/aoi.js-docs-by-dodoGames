@@ -41,7 +41,7 @@ now that you have created your own slash commands with it's own choices, you can
 {% code title="commands/example.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
 module.exports = {
-name: "slash-option-name",
+name: "slash-command-name",
 type: "interaction",
 prototype: "slash",
 $if: "v4",
