@@ -32,7 +32,7 @@ $createApplicationCommand[$guildID;choice;slash command choices showcase!;true;s
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>output example after executing the command</p></figcaption></figure>
 
-as you can see, this is a example, to simplify, `"name":` of choices names will be displayed on the slash command option that used to have the choices being created, value will be then used to respond to choices using multiple `$if`
+as you can see, this is a example, to simplify, `"name":` of choices names will be displayed on the slash command option that used to have the choices being created, value will be then used to respond to choices using `$if`
 
 ## responding to choices
 
