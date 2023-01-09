@@ -7,7 +7,7 @@ since v6, json parser has been removed, there is now recently a alternative that
 run the following command to your terminal
 
 ```javascript
-npm i https://github.com/usersatoshi/parsers#main
+npm i aoi.parser
 ```
 
 after the package is installed, add the following code to your index.js
