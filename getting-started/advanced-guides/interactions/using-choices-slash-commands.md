@@ -46,11 +46,10 @@ type: "interaction",
 prototype: "slash",
 $if: "v4",
 code: `$if[$slashOption[slash-option-name]==choicevalue1]
-$interactionReply[example of choice value 1 reply!]
-$else
-$if[$slashOption[slash-option-name]==choicevalue2]
-$interactionReply[example of choice value 2 reply!]
-$endif
+$interactionReply[example of choice 1 reply!]
+$elseif[$slashOption[slash-option-name]==choicevalue2]
+$interactionReply[example of choice 2 reply!]
+$endelseif
 $endif`
 } // and so on that you can even add many
 ```
