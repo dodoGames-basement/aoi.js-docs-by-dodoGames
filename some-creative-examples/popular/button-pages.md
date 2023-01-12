@@ -17,8 +17,8 @@ name: "pages",
 code: `$title[page 1]
 $description[content here]
 $footer[page 1/2]
-$addButton[1;Previous;primary;previous;yes]
-$addButton[1;Next;primary;next;no]`
+$addButton[1;Next;primary;next;no]
+$addButton[1;Previous;primary;previous;yes]`
 }
 ```
 {% endcode %}
@@ -35,19 +35,20 @@ module.exports = [{
 name: "pages",
 code: `$title[page 1]
 $description[content here]
-$footer[page 1/2]
+$footer[page 1/2;$authorAvatar]
+$addButton[1;Next;primary;next;no]
 $addButton[1;Previous;primary;previous;yes]
-$addButton[1;Next;primary;next;no]`
+`
 },{
 name: "next",
 type: "interaction",
 prototype: "button",
-code: `$interactionUpdate[;{newEmbed:{title:page 2}{description:content here}{footer: page 2/2}};{actionRow:{button:Previous:primary:previous:no}{button:Next:primary:next2:no}}]`
+code: `$interactionUpdate[;{newEmbed:{title:page 2}{description:content here}{footer: page 2/2:$authorAvatar}};{actionRow:{button:Previous:primary:previous:no}{button:Next:primary:next2:no}};;all;no]`
 },
 name: "previous",
 type: "interaction",
 prototype: "button",
-code: `$interactionUpdate[;{newEmbed:{title:page 1}{description:content here}{footer: page 1/2}};{actionRow:{button:Previous:primary:previous:yes}{button:Next:primary:next:no}}]`
+code: `$interactionUpdate[;{newEmbed:{title:page 1}{description:content here}{footer: page 1/2:$authorAvatar}};{actionRow:{button:Previous:primary:previous:yes}{button:Next:primary:next:no}};;all;no]`
 }]
 ```
 {% endcode %}
