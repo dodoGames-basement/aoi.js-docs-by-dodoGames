@@ -76,14 +76,14 @@ module.exports = [{
 name: "slash-name",
 type: "interaction",
 prototype: "slash",
-code: `$interactionReply[hi an reply from sub command!, awesome!;;;;all;no]
+code: `$interactionReply[hi an reply from sub command!, awesome!]
 $onlyIf[$interactionData[options._subcommand]==sub_slash_name1;]`
 },
 {
 name: "slash-name",
 type: "interaction",
 prototype: "slash",
-code: `$interactionReply[hi an reply from sub command!, awesome!;;;;all;no]
+code: `$interactionReply[hi an reply from another sub command!, awesome!]
 $onlyIf[$interactionData[options._subcommand]==sub_slash_name2;]`
 }]
 ```

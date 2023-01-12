@@ -24,6 +24,7 @@
 * [Main](tips/main/README.md)
   * [making $uptime shorter](tips/main/making-usduptime-shorter.md)
   * [organizing database using multiple tables](tips/main/organizing-database-using-multiple-tables.md)
+  * [removing unneeded numbers of $ram](tips/main/removing-unneeded-numbers-of-usdram.md)
 * [Music](tips/music/README.md)
   * [making play command with multiple options of choosing different types](tips/music/making-play-command-with-multiple-options-of-choosing-different-types.md)
 

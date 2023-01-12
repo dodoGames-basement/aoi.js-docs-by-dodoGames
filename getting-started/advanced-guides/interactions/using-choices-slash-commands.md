@@ -2,9 +2,12 @@
 
 this guide covers on how to use slash command choices, to get started make sure your bot has access to create slash commands on your current server if not then invite it with the `applications.commands` scope from dev portal
 
+
+
 ## getting started
 
-to start off you can have an template example like this:\\
+to start off you can have an template example like this:\
+
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -43,9 +46,9 @@ type: "interaction",
 prototype: "slash",
 $if: "v4",
 code: `$if[$slashOption[slash-option-name]==choicevalue1]
-$interactionReply[example of choice 1 reply!;;;;all;no]
+$interactionReply[example of choice 1 reply!]
 $elseif[$slashOption[slash-option-name]==choicevalue2]
-$interactionReply[example of choice 2 reply!;;;;all;no]
+$interactionReply[example of choice 2 reply!]
 $endelseif
 $endif`
 } // and so on that you can even add many

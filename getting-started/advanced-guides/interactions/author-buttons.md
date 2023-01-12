@@ -17,6 +17,8 @@ $addButton[1;Here;primary;hello_$authorID;no]`
 
 at the custom id part of the `$addButton` function we then add `$authorID` to the custom id name of the button in order to make the author buttons
 
+
+
 ## making the author interaction
 
 now we have a command that has a button with `$authorID` being used, let's make it respond to the only one who executed the cmd
@@ -32,7 +34,7 @@ $addButton[1;Here;primary;hello_$authorID;no]`
 {
 type: "interaction",
 prototype: "button",
-code: `$interactionReply[you're the author who clicked this!;;;;all;no]
+code: `$interactionReply[you're the author who clicked this!]
 
 $onlyif[$get[authorID]==$interactionData[author.id];{
 "content" : "You aren't the author of this interaction.",
