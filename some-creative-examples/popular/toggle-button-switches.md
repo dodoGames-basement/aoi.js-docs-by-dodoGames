@@ -2,11 +2,9 @@
 
 toggle button switches let's the user basically click a button to enable a feature as well as disable it by clicking on the same button, this can be useful for such as self roles, making a settings commands for bunch of features that is basically toggle a feature, etc
 
-
-
 ## Getting Started
 
-for this example, we will start with `$if`  alongside with `$elseif` for a interaction cmd, as well as a variable
+for this example, we will start with `$if` alongside with `$elseif` for a interaction cmd, as well as a variable
 
 {% code title="commands/switch.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
@@ -21,10 +19,10 @@ type: "interaction",
 $if: "v4",
 prototype: "button",
 code: `$if[$getServerVar[option]==false]
-$interactionReply[enabled the Option]
+$interactionReply[enabled the Option;;;;all;no]
 $setServerVar[option;true]
 $elseif[$getServerVar[option]==true]
-$interactionReply[disabled the Option]
+$interactionReply[disabled the Option;;;;all;no]
 $setServerVar[option;false]
 $endelseif
 $endif

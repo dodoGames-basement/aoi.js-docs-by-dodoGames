@@ -1,11 +1,11 @@
 # using context menu commands
 
-context menu commands are basically app commands that are executable through right clicking on whether an message or on an user with hovering to apps option to run the command from discord right click menu&#x20;
+context menu commands are basically app commands that are executable through right clicking on whether an message or on an user with hovering to apps option to run the command from discord right click menu
 
 before we get started, we need to understand the differences first before going further
 
-* **message**: commands that only appear when you right click on a certain message, normally these bring the message id if you have clicked their command through apps option from discord right click menu&#x20;
-* **user:** commands that only appear when you right click on a certain user, normally these bring the user id if you have clicked their command through apps option from discord right click menu&#x20;
+* **message**: commands that only appear when you right click on a certain message, normally these bring the message id if you have clicked their command through apps option from discord right click menu
+* **user:** commands that only appear when you right click on a certain user, normally these bring the user id if you have clicked their command through apps option from discord right click menu
 
 {% hint style="info" %}
 all context menu commands are only usable with the `slash` prototype otherwise it won't work
@@ -43,7 +43,7 @@ this will create an context menu command for users
 
 ## getting the id of the (message/user)
 
-you can use `$interactionData[targetId]`  which then gets the target id so if it was an context menu message command then it will return the targeted message id, same as context menu user command but opposite where it returns the targeted user id
+you can use `$interactionData[targetId]` which then gets the target id so if it was an context menu message command then it will return the targeted message id, same as context menu user command but opposite where it returns the targeted user id
 
 ## responding
 
@@ -55,7 +55,7 @@ module.exports = {
 name: "context-command-name",
 type: "interaction",
 prototype: "slash",
-code: `$interactionReply[Hi!]`
+code: `$interactionReply[Hi!;;;;all;no]`
 }
 
 ```
