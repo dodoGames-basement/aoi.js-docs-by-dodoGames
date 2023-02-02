@@ -1,7 +1,7 @@
-# notice
+# Welcome
 
-read the hint notice as this will not be maintained
+read the hint notice as it's very important
 
 {% hint style="info" %}
-this version of the docs won't be maintained for sometime because v6 is buggy for now, it is strongly recommended to stay in the v5 version of this docs at least for now until v6 gets stable&#x20;
+v6 is a little bit stable now but it still needs to be fully fixed, this version of the docs will aim to provide helpful tips as well as guides too, have fun exploring it&#x20;
 {% endhint %}

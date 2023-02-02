@@ -14,9 +14,10 @@ after the package is installed, add the following code to your index.js
 
 ```javascript
 // parser support
-const {  Util } = require("aoi.js");
-const { parse } = require(`aoi.parser`);
-Util.parsers.ErrorHandler = parse;
+const { Util } = require("aoi.js");
+const { setup } = require("aoi.parser");
+
+setup(Util);
 ```
 
 if you got no errors after restart then you're good to go
