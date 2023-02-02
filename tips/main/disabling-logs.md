@@ -1,6 +1,6 @@
 # disabling logs
 
-tired of console being spammed with bunch of commands that was loaded from the command handler?, you can disable that with the option `disableLogs`&#x20;
+want your own ready message instead of getting your bot name logged with an invite to official aoi.js support server? well, you can use `disableLogs` Option.
 
 example
 
