@@ -2,6 +2,12 @@
 
 * [Welcome](README.md)
 
+## get started
+
+* [Guides](get-started/guides/README.md)
+  * [Basic](get-started/guides/basic/README.md)
+    * [Error logger using functionError](get-started/guides/basic/error-logger-using-functionerror.md)
+
 ## Tips
 
 * [Main](tips/main/README.md)

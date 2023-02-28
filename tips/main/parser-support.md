@@ -1,6 +1,6 @@
 # parser support
 
-since v6, json parser has been removed, there is now recently a alternative that let's you add stuff to normal functions like buttons and other stuff you used to in json parser
+since v6, json parser has been removed, there is now recently a alternative that let's you add stuff to normal functions like buttons and other stuff you used to in json parser but with also extra useful features like ephemeral, etc.
 
 ## setting up parser support
 
@@ -27,7 +27,7 @@ if you got no errors after restart then you're good to go
 buttons including embeds inside `$sendMessage`: &#x20;
 
 ```javascript
-$sendMessage[{newEmbed: {title:hi}}
-{actionRow: {button: hi :1 : helloButton :no }}
+$sendMessage[{newEmbed:{title:hi}}
+{actionRow:{button:hello:1:helloButton:no}}
 ]
 ```
