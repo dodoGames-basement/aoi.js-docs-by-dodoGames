@@ -62,6 +62,9 @@ buttons including embeds inside `$sendMessage`: &#x20;
 $sendMessage[{newEmbed:{title:embed}{description:click on the button below}}
 {actionRow:{button:hello:1:helloButton}}
 ]
+
+// fact: this code also works without aoi.parser 
+// as said in the not needed cases to use aoi.parser
 ```
 
 interaction error from `$onlyIf` with ephemeral option including interaction option:
