@@ -14,7 +14,7 @@
 ## Tips
 
 * [Main](tips/main/README.md)
-  * [setting up aoi.parser](tips/main/parser-support.md)
+  * [Setting up aoi.parser](tips/main/parser-support.md)
   * [disabling logs](tips/main/disabling-logs.md)
 
 ## Examples

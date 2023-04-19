@@ -1,3 +1,3 @@
 # Basic
 
-this page just cover basic Guides for v6 users
+This Page just Cover Basic Guides for v6 Users.

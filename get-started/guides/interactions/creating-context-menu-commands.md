@@ -31,7 +31,7 @@ to respond to context menu commands for both types, you must use the prototype `
 
 additionally, you can use `$interactionData[targetId]` for returning the id of both message and user where you right clicked on them from discord desktop or from mobile when going to `Apps` option after long tap on a message/user as well.&#x20;
 
-now finally, let's create an example context menu command that responds to an interaction of an context menu for command handlers
+now finally, let's create an example context menu command that responds to an interaction of an context menu for command handlers.
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript
