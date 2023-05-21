@@ -2,7 +2,7 @@
 
 Want your own ready message instead of getting your bot name logged with an invite to official aoi.js support server? well, you can use `aoiLogs` Option.
 
-Example
+Example:
 
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
