@@ -1,6 +1,6 @@
 # Setting up aoi.parser
 
-aoi.parser is an extension for aoi.js parser system that adds features such as ephemeral messages for interaction error messages from `$onlyIf`, including the ability to use different types of select menu such as select menu for [channels](https://aoi-parser.vercel.app/documentation/parsers/component#channelinput) and other types like `{reply:}`, etc.
+Aoi.parser is an extension for aoi.js parser system that adds features such as ephemeral messages for interaction error messages from `$onlyIf`, including the ability to use different types of select menu such as select menu for [channels](https://aoi-parser.vercel.app/documentation/parsers/component#channelinput) and other types like `{reply:}`, etc.
 
 ## Understanding what you do
 
@@ -12,16 +12,16 @@ If you want to use the original version of parser then you may use advanced setu
 
 ## Setting up parser support
 
-run the following command to your terminal:
+Run the following command to your terminal:
 
 ```javascript
 npm i aoi.parser@latest
 ```
 
-after the package is installed, add the following code to your index.js.
+After the package is installed, add the following code to your index.js.
 
 ```javascript
-// enable aoi.parser
+// Enable aoi.parser.
 const { Util } = require("aoi.js");
 const { setup } = require("aoi.parser");
 
@@ -30,7 +30,7 @@ setup(Util);
 
 If you got no errors after restart then you're good to go.
 
-## what use cases are aoi.parser for
+## What use cases are aoi.parser for
 
 **Example Use Cases:**
 
@@ -54,7 +54,7 @@ Using slash option parsers for creating autocomplete commands (you can do it wit
 
 &#x20;
 
-## some kind of examples
+## Some kind of examples
 
 Buttons including embeds inside `$sendMessage`: &#x20;
 
@@ -64,7 +64,7 @@ $sendMessage[{newEmbed:{title:embed}{description:click on the button below}}
 ]
 
 // Fact: this code also works without aoi.parser 
-// As said in the not needed cases to use aoi.parser
+// As said in the not needed cases to use aoi.parser.
 ```
 
 Interaction error from `$onlyIf` with ephemeral option including interaction option:
