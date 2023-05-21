@@ -6,14 +6,23 @@ Example:
 
 {% code title="index.js" overflow="wrap" lineNumbers="true" %}
 ```javascript
-const aoijs = require('aoi.js')
+const { AoiClient } = require('aoi.js')
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
    token: "DISCORD BOT TOKEN"
    prefix: "DISCORD BOT PREFIX"
    intents: ["Guilds", "GuildMessages", "MessageContent"],
    events: ["onMessage", "onInteractionCreate"],
-   aoiLogs: false
+   aoiLogs: false,
+   database: { 
+     type: "aoi.db",
+     db: require("aoi.db"),
+     tables: ["main"],
+     path: "./database/",
+     extraOptions: {
+         dbType: "KeyValue" 
+     },
+ }
  })
 ```
 {% endcode %}

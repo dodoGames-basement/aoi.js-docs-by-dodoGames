@@ -10,13 +10,22 @@ To start off, you need to add the following into your `events:` options:
 
 {% code overflow="wrap" lineNumbers="true" %}
 ```javascript
-const aoijs = require("aoi.js")
+const { AoiClient } = require("aoi.js")
 
-const bot = new aoijs.AoiClient({
+const bot = new AoiClient({
     token: "Discord Token",
     prefix: "Discord Prefix",
     intents: ["MessageContent", "GuildMessages", "Guilds"],
-    events: ["onMessage", "onInteractionCreate", "onFunctionError"]
+    events: ["onMessage", "onInteractionCreate", "onFunctionError"], 
+database: { 
+     type: "aoi.db",
+     db: require("aoi.db"),
+     tables: ["main"],
+     path: "./database/",
+     extraOptions: {
+         dbType: "KeyValue" 
+     },
+ }
 })
 ```
 {% endcode %}
