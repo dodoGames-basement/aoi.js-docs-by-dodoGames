@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'dodoGames-s-Studios', // Usually your GitHub org/user name.
   projectName: 'aoi.js-docs-by-dodoGames', // Usually your repo name.
+  deploymentBranch: "docs-v2",
   trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
